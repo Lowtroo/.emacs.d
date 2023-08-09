@@ -129,7 +129,7 @@ If all failed, try to complete the common part with `company-complete-common'"
   :hook
   (kill-emacs . company-tabnine-kill-process)
   :config
-  (company-tabnine-toggle t))
+  (company-tabnine-toggle nil))
 ;; -CompanyTabNinePac
 
 ;; CompanyBoxPac
