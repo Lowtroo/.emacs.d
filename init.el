@@ -143,7 +143,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-theme)
 
-(require 'init-dashboard)
+;;(require 'init-dashboard)
 
 (require 'init-fonts)
 
@@ -181,53 +181,53 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-company)
 
 ;; Programming
-(require 'init-java)
+;;(require 'init-java)
 
 (require 'init-cc)
 
 (require 'init-python)
 
-(require 'init-haskell)
+;;(require 'init-haskell)
 
-(require 'init-ess)
+;;(require 'init-ess)
 
-(require 'init-latex)
+;;(require 'init-latex)
 
-(require 'init-buildsystem)
+;;(require 'init-buildsystem)
 
 ;; Web Development
-(require 'init-webdev)
+;;(require 'init-webdev)
 
 ;; Office
-(require 'init-org)
+;; (require 'init-org)
 
-(require 'init-pdf)
+;; (require 'init-pdf)
 
 ;; Internet
-(require 'init-eaf)
+;; (require 'init-eaf)
 
-(require 'init-erc)
+;; (require 'init-erc)
 
-(require 'init-mu4e)
+;; (require 'init-mu4e)
 
-(require 'init-tramp)
+;; (require 'init-tramp)
 
-(require 'init-leetcode)
+;; (require 'init-leetcode)
 
-(require 'init-debbugs)
+;; (require 'init-debbugs)
 
-(require 'init-hackernews)
+;; (require 'init-hackernews)
 
-(require 'init-eww)
+;; (require 'init-eww)
 
 ;; Miscellaneous
-(require 'init-chinese)
+;; (require 'init-chinese)
 
-(require 'init-games)
+;; (require 'init-games)
 
-(require 'init-epaint)
+;; (require 'init-epaint)
 
-(require 'init-zone)
+;; (require 'init-zone)
 
 ;; InitPrivate
 ;; Load init-private.el if it exists

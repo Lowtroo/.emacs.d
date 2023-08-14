@@ -48,9 +48,9 @@
   (ivy-mode 1)
   :bind
   (("C-s" . swiper-isearch)
-   ("C-z s" . counsel-rg)
-   ("C-z b" . counsel-buffer-or-recentf)
-   ("C-z C-b" . counsel-ibuffer)
+   ("C-c h g" . counsel-rg)
+   ("C-x b" . counsel-buffer-or-recentf)
+   ;;("C-x C-b" . counsel-ibuffer)
    (:map ivy-minibuffer-map
          ("M-RET" . ivy-immediate-done))
    (:map counsel-find-file-map
@@ -82,8 +82,8 @@
   :init
   (when (executable-find "fd")
     (setq ffip-use-rust-fd t))
-  :bind (("C-z o" . ffap)
-         ("C-z p" . ffip)))
+  :bind (("C-c f a p" . ffap)
+         ("C-c f i p" . ffip)))
 ;; -FFIPPac
 
 (provide 'init-search)
